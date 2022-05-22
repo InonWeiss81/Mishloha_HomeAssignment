@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Microsoft.Msagl.GraphViewerGdi/1.0.0": {
+        "dependencies": {
+          "AutomaticGraphLayout": "1.0.0",
+          "AutomaticGraphLayout.Drawing": "1.0.0"
+        },
+        "runtime": {
+          "Microsoft.Msagl.GraphViewerGdi.dll": {}
+        }
+      },
+      "AutomaticGraphLayout/1.0.0": {
+        "runtime": {
+          "AutomaticGraphLayout.dll": {}
+        }
+      },
+      "AutomaticGraphLayout.Drawing/1.0.0": {
+        "dependencies": {
+          "AutomaticGraphLayout": "1.0.0"
+        },
+        "runtime": {
+          "AutomaticGraphLayout.Drawing.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Msagl.GraphViewerGdi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AutomaticGraphLayout/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AutomaticGraphLayout.Drawing/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{4A1F1011-540E-47EA-B479-930222314685}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimplestWinFormsSample", "SimplestWinFormsSample\SimplestWinFormsSample.csproj", "{0A701C03-26E2-44C0-B458-9140195BFBCE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutomaticGraphLayout", "MSAGL\AutomaticGraphLayout.csproj", "{B709FAC7-C113-4D58-8BEE-47C25045D611}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutomaticGraphLayout.Drawing", "Drawing\AutomaticGraphLayout.Drawing.csproj", "{6E211221-2578-4B0E-B639-A3D863EF1C50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{D443DF7F-233F-48CB-8843-2C3469F3228B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphViewerGDI", "tools\GraphViewerGDI\GraphViewerGDI.csproj", "{4CF866AD-888B-4ACD-B872-1FFF0847C3D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A1F1011-540E-47EA-B479-930222314685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A1F1011-540E-47EA-B479-930222314685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A1F1011-540E-47EA-B479-930222314685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A1F1011-540E-47EA-B479-930222314685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A701C03-26E2-44C0-B458-9140195BFBCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A701C03-26E2-44C0-B458-9140195BFBCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A701C03-26E2-44C0-B458-9140195BFBCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A701C03-26E2-44C0-B458-9140195BFBCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B709FAC7-C113-4D58-8BEE-47C25045D611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B709FAC7-C113-4D58-8BEE-47C25045D611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B709FAC7-C113-4D58-8BEE-47C25045D611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B709FAC7-C113-4D58-8BEE-47C25045D611}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E211221-2578-4B0E-B639-A3D863EF1C50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E211221-2578-4B0E-B639-A3D863EF1C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E211221-2578-4B0E-B639-A3D863EF1C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E211221-2578-4B0E-B639-A3D863EF1C50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CF866AD-888B-4ACD-B872-1FFF0847C3D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CF866AD-888B-4ACD-B872-1FFF0847C3D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CF866AD-888B-4ACD-B872-1FFF0847C3D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CF866AD-888B-4ACD-B872-1FFF0847C3D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4CF866AD-888B-4ACD-B872-1FFF0847C3D8} = {D443DF7F-233F-48CB-8843-2C3469F3228B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C89825DB-E4AE-4095-A06F-E5994351D836}
+	EndGlobalSection
+EndGlobal

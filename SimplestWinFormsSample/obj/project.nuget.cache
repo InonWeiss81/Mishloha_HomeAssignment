@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "3VtH8N8dp+S3S8NpUIGlShwok5Gbwvw5afB5C/CSlOYjGFrqVCJt7SYVP3K/20P6Lg6SecX9PEGQ8yrfWjsEUw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Inon2019\\Source\\Repos\\InonWeiss81\\Mishloha_HomeAssignment\\SimplestWinFormsSample\\SimplestWinFormsSample.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Inon2019\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Inon2019\\.nuget\\packages\\system.data.datasetextensions\\4.5.0\\system.data.datasetextensions.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

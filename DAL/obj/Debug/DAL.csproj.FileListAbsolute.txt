@@ -1,0 +1,12 @@
+C:\Users\Inon2019\source\repos\Mishloha_HomeAssignment\DAL\bin\Debug\DAL.dll.config
+C:\Users\Inon2019\source\repos\Mishloha_HomeAssignment\DAL\bin\Debug\DAL.dll
+C:\Users\Inon2019\source\repos\Mishloha_HomeAssignment\DAL\bin\Debug\DAL.pdb
+C:\Users\Inon2019\source\repos\Mishloha_HomeAssignment\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Inon2019\source\repos\Mishloha_HomeAssignment\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Inon2019\source\repos\Mishloha_HomeAssignment\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Inon2019\source\repos\Mishloha_HomeAssignment\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Inon2019\source\repos\Mishloha_HomeAssignment\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\Inon2019\source\repos\Mishloha_HomeAssignment\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Inon2019\source\repos\Mishloha_HomeAssignment\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Inon2019\source\repos\Mishloha_HomeAssignment\DAL\obj\Debug\DAL.dll
+C:\Users\Inon2019\source\repos\Mishloha_HomeAssignment\DAL\obj\Debug\DAL.pdb

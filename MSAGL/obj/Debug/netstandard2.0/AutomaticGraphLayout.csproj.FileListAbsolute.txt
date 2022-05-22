@@ -1,0 +1,16 @@
+C:\Users\Inon2019\source\repos\MishlohaHomeTask\automatic-graph-layout-master\GraphLayout\MSAGL\bin\Debug\netstandard2.0\AutomaticGraphLayout.deps.json
+C:\Users\Inon2019\source\repos\MishlohaHomeTask\automatic-graph-layout-master\GraphLayout\MSAGL\bin\Debug\netstandard2.0\AutomaticGraphLayout.dll
+C:\Users\Inon2019\source\repos\MishlohaHomeTask\automatic-graph-layout-master\GraphLayout\MSAGL\bin\Debug\netstandard2.0\AutomaticGraphLayout.pdb
+C:\Users\Inon2019\source\repos\MishlohaHomeTask\automatic-graph-layout-master\GraphLayout\MSAGL\obj\Debug\netstandard2.0\AutomaticGraphLayout.csproj.AssemblyReference.cache
+C:\Users\Inon2019\source\repos\MishlohaHomeTask\automatic-graph-layout-master\GraphLayout\MSAGL\obj\Debug\netstandard2.0\AutomaticGraphLayout.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Inon2019\source\repos\MishlohaHomeTask\automatic-graph-layout-master\GraphLayout\MSAGL\obj\Debug\netstandard2.0\AutomaticGraphLayout.csproj.CoreCompileInputs.cache
+C:\Users\Inon2019\source\repos\MishlohaHomeTask\automatic-graph-layout-master\GraphLayout\MSAGL\obj\Debug\netstandard2.0\AutomaticGraphLayout.dll
+C:\Users\Inon2019\source\repos\MishlohaHomeTask\automatic-graph-layout-master\GraphLayout\MSAGL\obj\Debug\netstandard2.0\AutomaticGraphLayout.pdb
+C:\Users\Inon2019\source\repos\Mishloha_HomeAssignment\MSAGL\bin\Debug\netstandard2.0\AutomaticGraphLayout.deps.json
+C:\Users\Inon2019\source\repos\Mishloha_HomeAssignment\MSAGL\bin\Debug\netstandard2.0\AutomaticGraphLayout.dll
+C:\Users\Inon2019\source\repos\Mishloha_HomeAssignment\MSAGL\bin\Debug\netstandard2.0\AutomaticGraphLayout.pdb
+C:\Users\Inon2019\source\repos\Mishloha_HomeAssignment\MSAGL\obj\Debug\netstandard2.0\AutomaticGraphLayout.csproj.AssemblyReference.cache
+C:\Users\Inon2019\source\repos\Mishloha_HomeAssignment\MSAGL\obj\Debug\netstandard2.0\AutomaticGraphLayout.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Inon2019\source\repos\Mishloha_HomeAssignment\MSAGL\obj\Debug\netstandard2.0\AutomaticGraphLayout.csproj.CoreCompileInputs.cache
+C:\Users\Inon2019\source\repos\Mishloha_HomeAssignment\MSAGL\obj\Debug\netstandard2.0\AutomaticGraphLayout.dll
+C:\Users\Inon2019\source\repos\Mishloha_HomeAssignment\MSAGL\obj\Debug\netstandard2.0\AutomaticGraphLayout.pdb
