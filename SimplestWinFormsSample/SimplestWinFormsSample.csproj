@@ -18,11 +18,13 @@
     <OutputPath>bin\x64\Release\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj" />
     <ProjectReference Include="..\Drawing\AutomaticGraphLayout.Drawing.csproj" />
     <ProjectReference Include="..\MSAGL\AutomaticGraphLayout.csproj" />
     <ProjectReference Include="..\tools\GraphViewerGDI\GraphViewerGDI.csproj" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
     <PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
   </ItemGroup>
   <ItemGroup>

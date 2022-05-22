@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using DAL;
 using Microsoft.Msagl.Drawing;
 
 class ViewerSample
@@ -7,13 +8,13 @@ class ViewerSample
     {
         //create a form 
         System.Windows.Forms.Form form = new System.Windows.Forms.Form();
+        form.Width = 800;
+        form.Height = 800;
         //create a viewer object 
         Microsoft.Msagl.GraphViewerGdi.GViewer viewer = new Microsoft.Msagl.GraphViewerGdi.GViewer();
-        //create a graph object 
-        Graph graph = BuildGraph();
-
+        //create a graph object and
         //bind the graph to the viewer 
-        viewer.Graph = graph;
+        viewer.Graph = BuildGraph();
         //associate the viewer with the form 
         form.SuspendLayout();
         viewer.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -26,25 +27,27 @@ class ViewerSample
     private static Graph BuildGraph()
     {
         Graph graph = new Graph("graph");
+        
+
         //create the graph content 
-        var testNode1 = graph.AddNode("t1");
-        testNode1.Attr.Shape = Shape.Box;
-        testNode1.Attr.FillColor = Color.AliceBlue;
-        testNode1.Label.Text = "קטן";
+        using (var a = new AdventureWorksEntities())
+        {
+            int i = 0;
+            foreach (System.Reflection.TypeInfo ti in a.GetType().Assembly.GetTypes())
+            {
+                Node tempNode = new Node(i.ToString());
+                tempNode.Attr.Shape = Shape.Box;
+                tempNode.Label.Text = ti.Name;
+                //foreach (System.Reflection.PropertyInfo pi in ti.DeclaredProperties)
+                //{
 
-        var testNode2 = graph.AddNode("t2");
-        testNode2.Attr.Shape = Shape.Box;
-        testNode2.Attr.FillColor = Color.LightPink;
-        testNode2.Label.Text = "קדן";
+                //}
+                graph.AddNode(tempNode);
 
-        var testNode3 = graph.AddNode("t3");
-        testNode3.Attr.Shape = Shape.Box;
-        testNode3.Attr.FillColor = Color.AntiqueWhite;
-        testNode3.Attr.Shape = Shape.House;
-        testNode3.Label.Text = "בית";
-
-        graph.AddEdge("t1", "t3");
-        graph.AddEdge("t2", "t3");
+                i++;
+            }
+        }
+        
         return graph;
     }
 }

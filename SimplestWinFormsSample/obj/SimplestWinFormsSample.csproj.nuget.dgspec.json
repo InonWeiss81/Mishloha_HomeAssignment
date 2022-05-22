@@ -4,6 +4,21 @@
     "C:\\Users\\Inon2019\\Source\\Repos\\InonWeiss81\\Mishloha_HomeAssignment\\SimplestWinFormsSample\\SimplestWinFormsSample.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Inon2019\\Source\\Repos\\InonWeiss81\\Mishloha_HomeAssignment\\DAL\\DAL.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Inon2019\\Source\\Repos\\InonWeiss81\\Mishloha_HomeAssignment\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "C:\\Users\\Inon2019\\Source\\Repos\\InonWeiss81\\Mishloha_HomeAssignment\\DAL\\DAL.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\Users\\Inon2019\\Source\\Repos\\InonWeiss81\\Mishloha_HomeAssignment\\Drawing\\AutomaticGraphLayout.Drawing.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -163,6 +178,9 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
+              "C:\\Users\\Inon2019\\Source\\Repos\\InonWeiss81\\Mishloha_HomeAssignment\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\Inon2019\\Source\\Repos\\InonWeiss81\\Mishloha_HomeAssignment\\DAL\\DAL.csproj"
+              },
               "C:\\Users\\Inon2019\\Source\\Repos\\InonWeiss81\\Mishloha_HomeAssignment\\Drawing\\AutomaticGraphLayout.Drawing.csproj": {
                 "projectPath": "C:\\Users\\Inon2019\\Source\\Repos\\InonWeiss81\\Mishloha_HomeAssignment\\Drawing\\AutomaticGraphLayout.Drawing.csproj"
               },
@@ -177,6 +195,9 @@
           "net472": {
             "targetAlias": "net472",
             "projectReferences": {
+              "C:\\Users\\Inon2019\\Source\\Repos\\InonWeiss81\\Mishloha_HomeAssignment\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\Inon2019\\Source\\Repos\\InonWeiss81\\Mishloha_HomeAssignment\\DAL\\DAL.csproj"
+              },
               "C:\\Users\\Inon2019\\Source\\Repos\\InonWeiss81\\Mishloha_HomeAssignment\\Drawing\\AutomaticGraphLayout.Drawing.csproj": {
                 "projectPath": "C:\\Users\\Inon2019\\Source\\Repos\\InonWeiss81\\Mishloha_HomeAssignment\\Drawing\\AutomaticGraphLayout.Drawing.csproj"
               },
@@ -199,6 +220,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
             "Microsoft.CSharp": {
               "target": "Package",
               "version": "[4.7.0, )"
@@ -231,6 +256,10 @@
         "net472": {
           "targetAlias": "net472",
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
             "Microsoft.CSharp": {
               "target": "Package",
               "version": "[4.7.0, )"
