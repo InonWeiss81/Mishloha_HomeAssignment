@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using DAL;
+﻿using DAL;
 using Microsoft.Msagl.Drawing;
 
 class ViewerSample
