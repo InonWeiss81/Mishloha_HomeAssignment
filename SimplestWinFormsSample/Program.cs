@@ -46,7 +46,7 @@ class ViewerSample
                 i++;
             }
         }
-        
+       
         return graph;
     }
 }
