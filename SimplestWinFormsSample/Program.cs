@@ -46,10 +46,9 @@ class ViewerSample
         //create the graph content 
         using (var a = new AdventureWorksEntities())
         {
-            int i = 0;
             foreach (System.Reflection.TypeInfo ti in a.GetType().Assembly.GetTypes())
             {
-                Node tempNode = new Node(i.ToString());
+                Node tempNode = new Node(ti.Name);
                 tempNode.Attr.Shape = Shape.Box;
                 tempNode.Label.Text = ti.Name + "\n";
                 foreach (System.Reflection.PropertyInfo pi in ti.DeclaredProperties)
@@ -57,8 +56,6 @@ class ViewerSample
                     tempNode.Label.Text += "\n" + pi.Name;
                 }
                 graph.AddNode(tempNode);
-
-                i++;
             }
         }
        
