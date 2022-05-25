@@ -18,7 +18,7 @@
     <OutputPath>bin\x64\Release\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DAL\DAL.csproj" />
+    <ProjectReference Include="..\BL\BL.csproj" />
     <ProjectReference Include="..\Drawing\AutomaticGraphLayout.Drawing.csproj" />
     <ProjectReference Include="..\MSAGL\AutomaticGraphLayout.csproj" />
     <ProjectReference Include="..\tools\GraphViewerGDI\GraphViewerGDI.csproj" />

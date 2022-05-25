@@ -1,6 +1,8 @@
-﻿using DAL;
-using Microsoft.Msagl.Core.Geometry;
-using Microsoft.Msagl.Drawing;
+﻿using Microsoft.Msagl.Drawing;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using BL;
 
 class ViewerSample
 {
@@ -28,6 +30,16 @@ class ViewerSample
     {
         Graph graph = new Graph("graph");
 
+        var graphData = new DataBuilder().GetData();
+
+        return graph;
+    }
+
+
+    private static Graph BuildGraphOld()
+    {
+        Graph graph = new Graph("graph");
+
         //Node tempNode1 = new Node("test1");
         //tempNode1.Attr.Shape = Shape.Box;
         //tempNode1.Label.Text = "TEST";
@@ -43,22 +55,8 @@ class ViewerSample
 
         //return graph;
 
-        //create the graph content 
-        using (var a = new AdventureWorksEntities())
-        {
-            foreach (System.Reflection.TypeInfo ti in a.GetType().Assembly.GetTypes())
-            {
-                Node tempNode = new Node(ti.Name);
-                tempNode.Attr.Shape = Shape.Box;
-                tempNode.Label.Text = ti.Name + "\n";
-                foreach (System.Reflection.PropertyInfo pi in ti.DeclaredProperties)
-                {
-                    tempNode.Label.Text += "\n" + pi.Name;
-                }
-                graph.AddNode(tempNode);
-            }
-        }
-       
+        
+
         return graph;
     }
 }
