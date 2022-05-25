@@ -18,7 +18,7 @@
                     result = $"Each {FromNode} can have Multiple {ToNode}";
                     break;
                 case RelationType.ManyToOne:
-                    result = $"Multiple {FromNode} can have One {ToNode}";
+                    result = $"Each {ToNode} can have Multiple {FromNode}";
                     break;
                 case RelationType.MantToMany:
                     result = $"Multiple {FromNode} can have Multiple {ToNode}";

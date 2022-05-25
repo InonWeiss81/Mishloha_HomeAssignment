@@ -36,7 +36,7 @@ namespace BL
                             ToNode = nav.ToEndMember.Name,
                             RelationType = relationType
                         };
-                        if (!result.Edges.Exists(e => e.FromNode == edgeData.FromNode && e.ToNode == edgeData.ToNode))
+                        if (!result.Edges.Exists(e => e.FromNode == edgeData.ToNode && e.ToNode == edgeData.FromNode))
                         {
                             result.Edges.Add(edgeData);
                         }
