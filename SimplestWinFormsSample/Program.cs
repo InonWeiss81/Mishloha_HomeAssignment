@@ -19,9 +19,11 @@ class ViewerSample
     public static void Main()
     {
         //create a form 
-        Form form = new Form();
-        form.Width = 800;
-        form.Height = 800;
+        Form form = new Form
+        {
+            Width = 800,
+            Height = 800
+        };
 
         //viewer object 
         viewer.Graph = BuildGraph();
